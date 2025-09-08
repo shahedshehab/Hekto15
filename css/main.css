@@ -46,7 +46,32 @@ body {
     padding-left: 5px;
     
 }
+.right_side h2{
+    padding-bottom: 45px;
+}
+.footer{
+    background-color: #EEEFFB;
+}
+.right_side{
+    width: 60%;
+    justify-content: space-between;
+}
+.right_side,.left_side{
+    padding:95px 0 ;
+}
+.left_side img{
+    padding-bottom: 45px;
+}
 
+.footer a,.contact-info{
+    color: #8A8FB9;
+}
+.footer .left_side{
+    align-items: flex-start;
+}
+.left_side form{
+    background-color: #FFFFFF;
+}
 
 
 @media screen and (max-width:1200px) {
