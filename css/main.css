@@ -27,58 +27,90 @@ body {
     background-color: var(--primaryColor);
     padding: 8px 13px;
 }
-.left_side .search button{
-    
-    border: none;
-    outline: none;
-    background-color: var(--primaryColor);
-    padding: 10px 40px;
-    border-radius: 3px;
-    color: #FFFFFF;
-}
-.search form input{
- border: none;
-    outline: none;
-}
-.search form
-{
-    border: 1px #E7E6EF solid;
-    padding-left: 5px;
-    
-}
-.right_side h2{
-    padding-bottom: 45px;
-}
-.footer{
-    background-color: #EEEFFB;
-}
-.right_side{
-    width: 60%;
-    justify-content: space-between;
-}
-.right_side,.left_side{
-    padding:95px 0 ;
-}
-.left_side img{
-    padding-bottom: 45px;
-}
-
-.footer a,.contact-info{
-    color: #8A8FB9;
-}
-.footer .left_side{
-    align-items: flex-start;
-}
-.left_side form{
-    background-color: #FFFFFF;
-}
-
-
 @media screen and (max-width:1200px) {
-    .list,.search{
+    .list,.header .search{
         display: none;
     }
     .bar{
         display: block;
     }
 }
+
+
+
+.search form input{
+ border: none;
+    outline: none;
+    padding-left: 5px;
+}
+.search form
+{
+    border: 1px #E7E6EF solid;
+    
+    
+}
+
+.footer{
+    background-color: #EEEFFB;
+    padding: 50px 0;
+}
+
+
+
+.footer a,.contact-info{
+    color: #8A8FB9;
+}
+.footer .left_side{
+    gap: 35px;
+    align-items: flex-start;
+    width: calc((100% - 35px)/2);
+
+}
+
+.footer .right_side{
+    width: calc((100% - 25px) /2);
+  
+    
+}
+.footer-item{
+    gap: 25px;
+    width: calc((100% - 50px) /3);
+}
+
+.footer .right_side .row{
+    gap: 25px;
+    align-items: flex-start;
+}
+
+
+/* start container responsive  */
+@media screen and (max-width:1200px) {
+    .container{
+    width: calc(100% - 200px);
+}
+}
+@media screen and (max-width:992px) {
+    .container{
+    width: calc(100% - 100px);
+}
+}
+@media screen and (max-width:576px) {
+    .container{
+    width: calc(100% - 40px);
+}
+}
+/*end container responsive*/
+
+/*start footer responsive*/
+@media screen and (max-width:992px) {
+.footer .left_side,.footer .right_side{
+    width: 100%;
+}
+}
+@media screen and (max-width:576px) {
+    .footer-item{
+    width: 100%;
+    text-align: center;
+}
+}
+/*end footer responsive*/

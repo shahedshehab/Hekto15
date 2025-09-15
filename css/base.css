@@ -343,3 +343,6 @@ ul {
     width: calc(100% - 320px);
     margin: auto;
 }
+.c-white{
+    color: #ffffff;
+}
