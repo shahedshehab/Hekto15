@@ -321,7 +321,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 
@@ -339,10 +339,24 @@ ul {
     outline: none;
     border-radius: 2px;
 }
-.container{
+
+.container {
     width: calc(100% - 320px);
     margin: auto;
 }
-.c-white{
+
+.c-white {
     color: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
 }

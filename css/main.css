@@ -13,121 +13,212 @@ body {
     flex-wrap: wrap;
     gap: 35px;
 }
-.bar{
+
+.bar {
     display: none;
 }
 
-.active{
+.active {
     color: var(--primaryColor);
 }
 
-.search button{
+.search button {
     border: none;
     outline: none;
     background-color: var(--primaryColor);
     padding: 8px 13px;
 }
+
 @media screen and (max-width:1200px) {
-    .list,.header .search{
+
+    .list,
+    .header .search {
         display: none;
     }
-    .bar{
+
+    .bar {
         display: block;
     }
 }
 
 /* end header section*/
 
+/*start featured product*/
+
+.featured-products{
+    padding: 50px 0;
+}
+
+.featured-products h2{
+    margin-bottom: 48px;
+    color: #1A0B5B;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.featured-products .row{
+    justify-content: flex-start;
+    gap: 15px;
+}
+.featured-products .product{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 250px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 3px;
+    
+}
+.product .img{
+    background-color: #F6F7FB;
+    padding: 30px;
+    height: 250px;
+}
+
+.product .details{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 17px;
+}
+
+.color-one{
+    background-color: #05E6B7;
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.color-two{
+    background-color: #F701A8;
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.color-three{
+    background-color: #00009D;
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.details h3{
+    color: var(--primaryColor);
+}
+.details .product-info{
+    color:#151875;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/*start featured product*/
+
 /* start newsletter section*/
-.newsletter{
+.newsletter {
     background-image: url(../image/backg.webp);
     padding: 175px 0;
     text-align: center;
 }
-.newsletter h2{
+
+.newsletter h2 {
     margin-bottom: 35px;
     color: #151875;
     font-size: 35px;
     font-weight: bold;
+    
 }
-.Shop-btn{
+
+.Shop-btn {
     transition: all .5s;
 }
-.Shop-btn:hover{
+
+.Shop-btn:hover {
     background-color: #151875;
 }
+
 /* end newsletter section*/
 
 
 /* start client section*/
-.clients{
+.clients {
     padding: 50px 0;
 }
-.clients .row{
+
+.clients .row {
     flex-wrap: nowrap;
     gap: 15px;
-    overflow-x:auto;
+    overflow-x: auto;
 }
-.clients .c-logo{
-    width:17%; 
+
+.clients .c-logo {
+    width: 17%;
 }
-.clients img{
+
+.clients img {
     width: 100px;
     height: 100px;
 }
 
 @media screen and (max-width:900px) {
 
-    .clients .c-logo{
+    .clients .c-logo {
         width: 35%;
     }
-    
+
 }
 
 
 /* end client section*/
 
 /* start footer section*/
-.search form input{
- border: none;
+.search form input {
+    border: none;
     outline: none;
     padding-left: 5px;
 }
-.search form
-{
+
+.search form {
     border: 1px #E7E6EF solid;
-    
-    
+
+
 }
 
-.footer{
+.footer {
     background-color: #EEEFFB;
     padding: 50px 0;
 }
 
 
 
-.footer a,.contact-info{
+.footer a,
+.contact-info {
     color: #8A8FB9;
 }
-.footer .left_side{
+
+.footer .left_side {
     gap: 35px;
     align-items: flex-start;
     width: calc((100% - 35px)/2);
 
 }
 
-.footer .right_side{
+.footer .right_side {
     width: calc((100% - 25px) /2);
-  
-    
+
+
 }
-.footer-item{
+
+.footer-item {
     gap: 25px;
     width: calc((100% - 50px) /3);
 }
 
-.footer .right_side .row{
+.footer .right_side .row {
     gap: 25px;
     align-items: flex-start;
 }
@@ -135,32 +226,39 @@ body {
 
 /* start container responsive  */
 @media screen and (max-width:1200px) {
-    .container{
-    width: calc(100% - 200px);
+    .container {
+        width: calc(100% - 200px);
+    }
 }
-}
+
 @media screen and (max-width:992px) {
-    .container{
-    width: calc(100% - 100px);
+    .container {
+        width: calc(100% - 100px);
+    }
 }
-}
+
 @media screen and (max-width:576px) {
-    .container{
-    width: calc(100% - 40px);
+    .container {
+        width: calc(100% - 40px);
+    }
 }
-}
+
 /*end container responsive*/
 
 /*start footer responsive*/
 @media screen and (max-width:992px) {
-.footer .left_side,.footer .right_side{
-    width: 100%;
+
+    .footer .left_side,
+    .footer .right_side {
+        width: 100%;
+    }
 }
-}
+
 @media screen and (max-width:576px) {
-    .footer-item{
-    width: 100%;
-    text-align: center;
+    .footer-item {
+        width: 100%;
+        text-align: center;
+    }
 }
-}
+
 /*end footer responsive*/
