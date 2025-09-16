@@ -36,8 +36,37 @@ body {
     }
 }
 
+/* end header section*/
+
+/* start client section*/
+.clients{
+    padding: 50px 0;
+}
+.clients .row{
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x:auto;
+}
+.clients .c-logo{
+    width:17%; 
+}
+.clients img{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:900px) {
+
+    .clients .c-logo{
+        width: 35%;
+    }
+    
+}
 
 
+/* end client section*/
+
+/* start footer section*/
 .search form input{
  border: none;
     outline: none;
