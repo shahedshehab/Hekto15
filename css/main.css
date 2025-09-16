@@ -38,6 +38,27 @@ body {
 
 /* end header section*/
 
+/* start newsletter section*/
+.newsletter{
+    background-image: url(../image/backg.webp);
+    padding: 175px 0;
+    text-align: center;
+}
+.newsletter h2{
+    margin-bottom: 35px;
+    color: #151875;
+    font-size: 35px;
+    font-weight: bold;
+}
+.Shop-btn{
+    transition: all .5s;
+}
+.Shop-btn:hover{
+    background-color: #151875;
+}
+/* end newsletter section*/
+
+
 /* start client section*/
 .clients{
     padding: 50px 0;
