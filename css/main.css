@@ -43,6 +43,83 @@ body {
 
 /* end header section*/
 
+/*start hero section*/
+
+.hero{
+    background-color: #F2F0FF;
+    padding: 50px 0;
+}
+.hero-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 60%;
+
+}
+.hero-lamp img{
+    width: 220px;
+}
+
+.hero-content .hero-lamp{
+    position: relative;
+    bottom: 50px;
+    left: -25px;
+    
+}
+.text-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 120px;
+    
+}
+
+.text-content h1{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5%;
+    line-height: 170.5%;
+    font-weight: lighter;
+}
+
+.text-content p{
+    color: #8A8FB9;
+}
+
+.Shop-button{
+    padding-left: 190px;
+}
+
+.hero-img{
+    flex: 1 0 30%;
+}
+.hero-img img{
+    width: 100%;
+}
+
+@media (max-width: 1300px) {
+    .text-content{
+        padding-top: 0;
+    }
+    .Shop-button{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+  .text-content{
+    text-align: center;
+  }
+  .hero-lamp{
+    display: none;
+  }
+  .Shop-button {
+    width: 100%;
+    padding: 20px;
+  }
+}
+/*end hero section*/
+
 /*start featured product*/
 
 .featured-products{
@@ -136,7 +213,7 @@ body {
     background-color: #FFEAC1;
 }
 
-/*start featured product*/
+/*end featured product*/
 
 /* start newsletter section*/
 .newsletter {
