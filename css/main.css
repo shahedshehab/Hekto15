@@ -68,6 +68,14 @@ body {
     border-radius: 3px;
     
 }
+.badge-sale{
+    position: absolute;
+    left: -12px;
+    top: -2px;
+}
+.product{
+    position: relative;
+}
 .product .img{
     background-color: #F6F7FB;
     padding: 30px;
@@ -81,39 +89,51 @@ body {
     padding: 17px;
 }
 
-.color-one{
-    background-color: #05E6B7;
-    width: 14px;
+.color{
+   width: 14px;
     height: 4px;
     border-radius: 10px;
     border: none;
-    outline: none;
+    outline: none; 
+    cursor: pointer;
+}
+
+.color-one{
+    background-color: #05E6B7;
 }
 .color-two{
     background-color: #F701A8;
-    width: 14px;
-    height: 4px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
 }
 .color-three{
     background-color: #00009D;
-    width: 14px;
-    height: 4px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
+    transition: all .6s;
 }
 
 .details h3{
     color: var(--primaryColor);
+    transition: all .6s;
 }
 .details .product-info{
     color:#151875;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    transition: all .6s;
+}
+.details{
+    transition: all .6s;
+    border-radius: 2px;
+}
+
+.product:hover .details{
+ background-color: #2F1AC4;
+}
+
+.product:hover .details h3,.product:hover .details .product-info{
+    color: #ffff;
+}
+.product:hover .color-three{
+    background-color: #FFEAC1;
 }
 
 /*start featured product*/
