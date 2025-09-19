@@ -347,6 +347,38 @@ position: absolute;
 
 /*end Leatest Products section*/
 
+/*start shopex offer section*/
+.shopex-offer h1{
+    color: var(--secondaryColor);
+    padding: 50px;
+}
+.shopex-offer .row{
+    gap: 30px;
+}
+.shopex-offer .offer{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 200px;
+    align-items: center;
+    box-shadow: 0px 4px 4px #00000010;
+    border-radius: 3px;
+    margin-bottom: 120px;
+    gap: 25px;
+    padding: 40px;
+}
+.shopex-offer img{
+    width: 65px;
+}
+.shopex-offer h2{
+    color: var(--secondaryColor);
+}
+.shopex-offer p{
+    color: #1a0b5b4f;
+    line-height: 25px;
+    font-size: 16px;
+}
+/*start shopex offer section*/
+
 /* start newsletter section*/
 .newsletter {
     background-image: url(../image/backg.webp);
