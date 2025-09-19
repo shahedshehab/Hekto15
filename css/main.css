@@ -238,7 +238,7 @@ body {
 
 .Leatest-Products .items{
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
     margin-bottom: 60px;
     color: #151875;
@@ -264,6 +264,7 @@ li:hover a{
 }
 
 .Leatest-Products .badge-sale{
+    display: none;
     position: absolute;
     left: -12px;
     top: -2px;
@@ -312,6 +313,9 @@ position: absolute;
 .Leatest-Products .product:hover svg
 {
     display: inline;
+}
+.Leatest-Products .product:hover .badge-sale{
+    display: block;
 }
 .Leatest-Products .details h3{
     color: #151875;
