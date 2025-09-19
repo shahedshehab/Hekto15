@@ -456,6 +456,7 @@ position: absolute;
     align-content: center;
     margin-bottom: 30px;
     position: relative;
+    transition: all .6s;
 }
 .Top-Categories .product:hover .img{
     filter: drop-shadow(-6px 6px  #9877E7);
@@ -567,7 +568,6 @@ position: absolute;
     border-radius: 3px; 
     margin-bottom: 115px; 
     gap: 20px;
-    
 }
 .Leatest-Blog .details{ 
     display: flex;
@@ -609,6 +609,7 @@ position: absolute;
     font-size: 18px;
     color: var(--secondaryColor);
     font-weight: 600;
+    transition: all .6s;
 }
 .Leatest-Blog .details p{
     color: #72718F;
@@ -616,6 +617,7 @@ position: absolute;
 .Leatest-Blog .details a{
     color: var(--secondaryColor);
     text-decoration: underline;
+    transition: all .6s;
 }
 .Leatest-Blog .Blog:hover h2,.Leatest-Blog .Blog:hover a{
     color: var(--primaryColor);
