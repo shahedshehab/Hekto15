@@ -377,7 +377,59 @@ position: absolute;
     line-height: 25px;
     font-size: 16px;
 }
-/*start shopex offer section*/
+/*end shopex offer section*/
+
+/* start trending products section*/
+.Trending-Products h1{
+    color: var(--secondaryColor);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 750;
+}
+.Trending-Products .row{
+    gap: 30px;
+}
+.Trending-Products .product{
+ display: flex;
+    flex-direction: column;
+    flex: 1 0 250px;
+    align-items: center;
+    box-shadow: 0px 4px 4px #00000010;
+    border-radius: 3px;  
+    margin-bottom: 50px; 
+    
+}
+.Trending-Products .img{
+    background-color: #F5F6F8;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.Trending-Products img{
+    object-fit:fill;
+    width: 200px;
+    height: 200px;
+}
+.Trending-Products .details{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+.Trending-Products .details h2{
+    color: var(--secondaryColor);
+    font-size: 17px;
+}
+.Trending-Products .price-sale span{
+    color: var(--secondaryColor);
+    font-size: 15px;
+}
+.Trending-Products .price-sale .old{
+    color: #1518752f;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+/* end trending products section*/
 
 /* start newsletter section*/
 .newsletter {
