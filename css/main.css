@@ -548,6 +548,81 @@ position: absolute;
 
 /* end client section*/
 
+/* start leatest blog section*/
+
+.Leatest-Blog h1{
+    color: var(--secondaryColor);
+    font-size: 40px;
+    font-weight: 720;
+    margin-bottom: 80px;
+}
+.Leatest-Blog .row{
+    gap: 40px;
+}
+.Leatest-Blog .Blog{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
+    box-shadow: 0px 4px 4px #00000010;
+    border-radius: 3px; 
+    margin-bottom: 115px; 
+    gap: 20px;
+    
+}
+.Leatest-Blog .details{ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    align-items: start;
+    padding-bottom: 35px;
+}
+.Leatest-Blog .Blog .contact{
+    display: flex;
+    gap: 30px;
+}
+.Leatest-Blog .author{
+    display: flex;
+    gap: 5px;
+    color: var(--secondaryColor);
+    font-size: 14px;
+    font-weight: 500;
+}
+.Leatest-Blog .author svg{
+    width: 11px;
+    stroke: #FB2E86;
+    fill: #FB2E86;
+}
+.Leatest-Blog .date{
+    display: flex;
+    gap: 5px;
+    color: var(--secondaryColor);
+    font-size: 14px;
+    font-weight: 500;
+}
+.Leatest-Blog .date svg{
+    width: 11px;
+    stroke: #FFA454 ;
+    fill:#FFA454;
+}
+.Leatest-Blog .details h2{
+    font-size: 18px;
+    color: var(--secondaryColor);
+    font-weight: 600;
+}
+.Leatest-Blog .details p{
+    color: #72718F;
+}
+.Leatest-Blog .details a{
+    color: var(--secondaryColor);
+    text-decoration: underline;
+}
+.Leatest-Blog .Blog:hover h2,.Leatest-Blog .Blog:hover a{
+    color: var(--primaryColor);
+}
+
+/* end leatest blog section*/
+
 /* start footer section*/
 .search form input {
     border: none;
@@ -617,6 +692,7 @@ position: absolute;
 }
 
 /*end container responsive*/
+
 
 /*start footer responsive*/
 @media screen and (max-width:992px) {
