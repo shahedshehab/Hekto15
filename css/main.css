@@ -144,11 +144,7 @@ body {
     box-shadow: 0px 4px 4px #00000040;
     border-radius: 3px;
     }
-.featured-products .badge-sale{
-    position: absolute;
-    left: -12px;
-    top: -2px;
-}
+
 .featured-products .product{
     position: relative;
 }
@@ -253,16 +249,79 @@ li:hover a{
     text-decoration: underline;
 }
 
+.Leatest-Products .upper-product{
+    margin-bottom: 120px;
+}
 
-
-.Leatest-Products .product .img{
+.Leatest-Products .upper-product .img{
     background-color: #F7F7F7;
     padding: 30px;
     height: 300px;
 }
 
+.Leatest-Products .img{
+    position: relative;
+}
+
+.Leatest-Products .badge-sale{
+    position: absolute;
+    left: -12px;
+    top: -2px;
+}
+
+.Leatest-Products svg{
+    display: none;
+    width: 40px;
+    height: 40px;   
+    border-radius: 2px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    stroke: #2F1AC4;
+    fill: #2F1AC4;
+}
+.Leatest-Products .cart{
+background-color: #EEEFFB;
+position: absolute;
+   left: 10px;
+   bottom: 100px;
+}
+
+.Leatest-Products .heart{
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+}
+.Leatest-Products .search{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+
+
+.Leatest-Products .lower-product .img{
+    background-color: #F7F7F7;
+    height: 300px; /*حذفت الpadding عشان يزبط الشكل بس تأكدي من حدا اذا هاي الطريقة الصح او لا*/
+}
+
+.Leatest-Products .product:hover .img{
+      background-color: #ffff;
+
+}
+.Leatest-Products .product:hover svg
+{
+    display: inline;
+}
 .Leatest-Products .details h3{
     color: #151875;
+    font-weight:bold;
+}
+
+.Leatest-Products .line{
+    width: 175px;
+    background-color: #EEEFFB;
+    height: 2px;
 }
 
 .Leatest-Products .details{
