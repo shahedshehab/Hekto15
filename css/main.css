@@ -390,7 +390,7 @@ position: absolute;
     gap: 30px;
 }
 .Trending-Products .product{
- display: flex;
+    display: flex;
     flex-direction: column;
     flex: 1 0 250px;
     align-items: center;
@@ -430,6 +430,66 @@ position: absolute;
 }
 
 /* end trending products section*/
+
+/* start Top Categories section*/
+
+.Top-Categories .row{
+    gap: 40px;
+}
+.Top-Categories h1{
+    color: var(--secondaryColor);
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.Top-Categories .product{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 250px;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.Top-Categories .img{
+    background-color: #F6F7FB;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.Top-Categories .product:hover .img{
+    filter: drop-shadow(-6px 6px  #9877E7);
+}
+.Top-Categories .product:hover .view-btn{
+    display: block;
+}
+.Top-Categories .img img{
+   object-fit: contain; 
+   width: 150px;
+   height: 150px;
+}
+.Top-Categories .view-btn{
+    background-color: #08D15F;
+    color: #ffff;
+    padding: 9px 18px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    left: 75px;
+    display: none;
+}
+.Top-Categories h2{
+    color: var(--secondaryColor);
+    font-weight: 500;
+    font-size: 20px;
+}
+.Top-Categories span{
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--secondaryColor);
+}
+
+/* end Top Categories section*/
 
 /* start newsletter section*/
 .newsletter {
