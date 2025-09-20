@@ -154,6 +154,42 @@ body {
     height: 250px;
 }
 
+.featured-products svg{
+    display: none;
+    width: 40px;
+    height: 40px;   
+    border-radius: 2px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    stroke: #1DB4E7;
+    fill: #1DB4E7;
+    transition: all .6s;
+}
+.featured-products .product:hover svg{
+    display: block;
+}
+.featured-products .cart{
+background-color: #EEEFFB;
+position: absolute;
+   top: 10px;
+   left: 10px;
+   stroke: var(--secondaryColor);
+   fill: var(--secondaryColor);
+}
+
+.featured-products .heart{
+    position: absolute;
+    left: 57px;
+    top: 10px;
+}
+.featured-products .search{
+    position: absolute;
+    left: 95px;
+    top: 10px;
+}
+
 .featured-products .product .details{
     display: flex;
     flex-direction: column;
